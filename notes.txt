@@ -1,0 +1,16 @@
+We can make layouts using traditional bs3 grid styles which internally used flexbox. 
+          OR
+We can start from scratch using flexbox and make layouts.
+
+* ROW class in Bootstrap 4 turn the element into flex (Grid system is based on flexbox in bs4)
+* col-md-6 => All screens will with medium width and larger until specified will span 6 columns
+  col-6 => span 6 cols on all screen sizes
+  col => equal width on all screen sizes
+  col-sm => stay equal widths on all sizes above sm and on sm stack above each other
+  col order-<n> => will list the element on nth column of row
+  col-md-6 offset-md-3 => will keep 3 columns width on both sides (Helps to not fill 12 colums and keep empty space as required)
+  We can nest grids
+* ml-auto, mr-auto align items to right and left respectively for flex-row
+* mt-auto, mb-auto align items to bottom and top respectively for flex-column
+* flex-wrap allows item to go beyond width of page and user has to scroll left or right
+* flex-nowrap doesnt allow items to go beyond width of page.
